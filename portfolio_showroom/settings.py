@@ -129,7 +129,7 @@ STATICFILES_DIRS = [
 ]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, '/portfolio_app/static/images')
-
+STATIC_ROOT = os.path.join(BASE_DIR, '/portfolio_app/staticfiles')
 
 
 # Default primary key field type
